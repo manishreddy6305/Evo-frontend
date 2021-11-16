@@ -1,0 +1,23 @@
+.oneToManyFeatures-points-main{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.tick-content{
+    display: flex;
+    flex-direction: column;
+}
+.tick-content-heading-sub{
+    color: #555555;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.tick-content-two{
+    color: #666666;
+    font-size: 20px;
+    line-height: 1.6;
+}

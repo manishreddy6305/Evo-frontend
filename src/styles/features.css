@@ -1,0 +1,8 @@
+@media screen and (min-width: 0px) and (max-width: 1250px) {
+    .feature-video-div{
+        width: 100vw;
+    }
+    .feature-video{
+        height: 400px;
+    }
+}

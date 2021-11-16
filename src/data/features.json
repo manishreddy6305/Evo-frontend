@@ -1,0 +1,75 @@
+{
+	"greatFeatures": {
+		"media": {
+			"type": "image",
+			"url": "./images/featured.png" 
+		},
+		"heading": "Evo’s live streaming platform works great for",
+		"points": [
+			"Performances and events",
+			"Webinars and classes",
+			"Community engagement",
+			"Company announcements",
+			"Product launches",
+			"Virtual conferences and panels"
+		]
+	},
+	"features": [
+		{
+			"media": {
+				"type": "video",
+				"url": "https://www.goswirl.live/wp-content/uploads/2021/08/Fabelle-Live-Video.mp4"
+			},
+			"heading": "INSPIRE MORE VISITORS WITH * ONE-TO-MANY * LIVE SHOPPING",
+			"sub": "Add the power of interactive, shoppable videos to your online business and bring your products to life",
+			"points": [
+				"Turn sales associates into influencers by effortlessly shooting short videos or live shopping sessions",
+				"Easily tag products in the video or sync from your website's to let customers shop the look",
+				"Invite customers to join using a single link and Share on any social media or digital channels"
+			],
+			"btnText": "EXPLORE ONE-TO-MANY"
+		},
+		{
+			"media": {
+				"type": "image",
+				"url": "https://www.goswirl.live/wp-content/uploads/elementor/thumbs/m2-min-p5u1l5a5oqvcnla9axsjm4r8lf6l8k5urf6q8i7mkg.png"
+			},
+			"heading": "ENGAGE MORE SHOPPERS WITH * SHORT VIDEO STORIES *",
+			"sub": "Drive authentic customer engagements and bridge the online-offline gap with Live Shopping",
+			"points": [
+				"Welcome online visitors and showcase new products or talk about existing offers",
+				"Chat with them in real-time or answer their queries through Text, Whatsapp, Voice & SMS",
+				"Assist customers in their pre-purchase journey to seamlessly add to cart and transact online"
+			],
+			"btnText": "EXPLORE SHORT VIDEOS"
+		},
+		{
+			"media": {
+				"type": "image",
+				"url": "https://www.goswirl.live/wp-content/uploads/elementor/thumbs/m4-min-p5u1l5a5oqvcnla9axsjm4r8lf6l8k5urf6q8i7mkg.png"
+			},
+			"heading": "CONVERT & RETAIN MORE CUSTOMERS WITH * ONE-TO-ONE * VIRTUAL SHOPPING",
+			"sub": "Bring the personal touch to online shopping and turn a one-time shopper into a lifelong customer",
+			"points": [
+				"Make recommendations, announce new offers, & invite shoppers to check the latest launches",
+				"Generate OTP verified customer leads and check their intent score to identify the conversion probability",
+				"Retarget leads to grow your sales using SMS, WhatsApp, Voice and improve repeat business"
+			],
+			"btnText": "EXPLORE ONE-TO-ONE"
+		},
+		{
+			"media": {
+				"type": "image",
+				"url": "https://www.goswirl.live/wp-content/uploads/elementor/thumbs/m3-min-p5u1l5a5oqvcnla9axsjm4r8lf6l8k5urf6q8i7mkg.png"
+			},
+			"heading": "* TRACK REAL-TIME * ANALYTICS & RETARGET FROM DASHBOARD",
+			"sub": "Be in full control of your customer data, moderate Live Shopping content & monitor business performance",
+			"points": [
+				"View, manage, track leads all in one place",
+				"View store analytics, Live Shopping interactions, CTRs, repeat visits, engagement rate and much more",
+				"View consumer persona, their conversation history, interaction data touchpoints and much more"
+			],
+			"btnText": "LEARN MORE"
+		}
+	]
+}

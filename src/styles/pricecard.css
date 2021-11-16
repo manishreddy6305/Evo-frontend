@@ -1,0 +1,138 @@
+.pricecard-main {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    border: 2px solid #ccd7dc;
+    height: fit-content;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.pricecard-main:hover {
+    transform: translateY(-7px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.priceimg {
+    width: 75px;
+    height: 75px;
+    margin-top: 40px;
+    position: relative;
+    left: -3px;
+    top: -2px;
+}
+
+.pricecard-img {
+    display: flex;
+    justify-content: center;
+}
+
+.pricecard-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.free {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+
+.price-free {
+    display: flex;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+}
+
+.cost {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.duration::before {
+    content: '/';
+    margin-right: 2px;
+}
+
+.value {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.currency,
+.duration {
+    color: #1bbc9d;
+}
+
+.currency {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+    font-weight: 300;
+    align-self: flex-start;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+
+.duration {
+    align-self: flex-end;
+    font-size: 1rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.pricecard-button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    width: 75%;
+    height: 40px;
+    border: 1px solid #F37381;
+    background-color: white;
+    border-radius: 4px;
+    transition: all .6s;
+    color: #F37381;
+    cursor: pointer;
+}
+
+.pricecard-button:hover {
+    background-color: #F37381;
+    color: white;
+}
+
+.button-main {
+    display: flex;
+    justify-content: center;
+    justify-self: flex-end;
+    margin-top: 30px;
+}
+
+@media screen and (min-width:770px) and (max-width:1200px) {
+    .pricecard-main {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        border: 2px solid #ccd7dc;
+        height: fit-content;
+        justify-content: space-between;
+        border-radius: 6px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:770px) {
+    .pricecard-main {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        border: 2px solid #ccd7dc;
+        height:fit-content;
+        justify-content: space-between;
+        border-radius: 6px;
+    }
+}

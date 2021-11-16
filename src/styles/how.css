@@ -1,0 +1,52 @@
+.H-main {
+    display: flex;
+    width: 24%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.H-img {
+    width: 100px;
+    height: 100px;
+}
+
+.H-heading {
+    margin-top: 40px;
+}
+
+.H-content {
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 0px) and (max-width: 899px) {
+    .H-main {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .H-heading {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .H-main {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .H-heading {
+        margin-top: 20px;
+    }
+
+}

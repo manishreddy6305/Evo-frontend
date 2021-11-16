@@ -1,0 +1,364 @@
+.video-main {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.video-main::before {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+}
+
+.video {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.vc-go {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vc-l {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.video-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    justify-content: center;
+    align-items: center;
+}
+
+.gs {
+    padding: 12px;
+    border: 0px;
+    color: rgb(26, 46, 59);
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 3px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (min-width: 950px) and (max-width: 1100px) {
+    .video-content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30%;
+        left: 33%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+    .video-content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 27%;
+        left: 28%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width: 599px) {
+    .video-content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 23%;
+        left: 27%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vc-go {
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width: 480px) {
+    .video-content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vc-go {
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .gs {
+        padding: 8px;
+        border: 0px;
+        color: rgb(26, 46, 59);
+        background-color: white;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 12px;
+        border-radius: 3px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+}
+
+.th {
+    width: 75%;
+}
+
+.tagline {
+    min-height: 200px;
+    max-height: 700px;
+    background-color: #f3f7fa;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:520px) and (max-width:914px) {
+    .thc {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:520px) {
+    .thc {
+        font-size: 20px;
+    }
+}
+
+.greatfeature-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gfsub {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 4px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gfm-2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.featureimg {
+    width: 120px;
+    height: 120px;
+}
+
+.points-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+    width: 30%;
+    align-self: center;
+}
+
+.points-sub2 {
+    display: flex;
+    margin-left: 80px;
+}
+
+.pointicon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.points-f {
+    align-self: center;
+    margin: 0;
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 1060px) and (max-width: 1300px) {
+    .points-sub2 {
+        margin-left: 0px;
+    }
+
+    .kf {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1059px) {
+    .points-sub2 {
+        margin-left: 0px;
+        align-self: flex-start;
+    }
+    .gfm-2 {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .points-f {
+        font-size: 15px;
+    }
+
+    .points-sub {
+        width: 50%;
+        margin-left: 50px;
+    }
+    .kf {
+        margin-top: 25px;
+        font-size: 17px;
+        text-align: center;
+    }
+    .gfsub {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 471px) and (max-width: 699px) {
+    .gfsub {
+        width: 75%;
+        text-align: center;
+        align-self: center;
+    }
+
+    .greatfeature-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .points-sub {
+        align-self: flex-start;
+        width: 75%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 471px) {
+    .gfsub {
+        width: 90%;
+        text-align: center;
+        align-self: center;
+    }
+
+    .greatfeature-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .points-sub {
+        align-self: flex-start;
+        width: 90%;
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+
+    .points-sub2 {
+        margin-left: 0;
+    }
+
+    .kf {
+        font-size: 18px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+.how {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f7fa;
+}
+
+.how-sub {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-b {
+    padding: 15px;
+    background-color: #6daaca;
+    border: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    margin-bottom: 80px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .1s linear;
+}
+
+.how-b:hover {
+    background-color: #51aac4;
+}
+
+@media screen and (min-width: 0px) and (max-width: 899px) {
+    .how-sub {
+        margin-top: 80px;
+        margin-bottom: 0px;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.Technologypartners {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}

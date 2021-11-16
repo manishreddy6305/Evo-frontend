@@ -1,0 +1,26 @@
+[
+    {
+        "imgurl": "./images/conversation.png",
+        "heading": "Ask questions"
+    },
+    {
+        "imgurl":"./images/voice-message.png",
+        "heading": "Send voice messages"
+    },
+    {
+        "imgurl":"./images/live-chat-two.png",
+        "heading":"Live chat"
+    },
+    {
+        "imgurl":"./images/smartphone.png",
+        "heading":"Request product details"
+    },
+    {
+        "imgurl":"./images/video-call.png",
+        "heading":"Request a video call"
+    },
+    {
+        "imgurl":"./images/video.png",
+        "heading":"Do Live Video Shopping"
+    }
+]

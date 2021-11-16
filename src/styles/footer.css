@@ -1,0 +1,144 @@
+.Footer-main {
+    display: flex;
+    padding: 120px 0px 120px;
+    background: #0e1424;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.Footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ff {
+    margin-top: 10px;
+}
+
+.email:focus {
+    outline: none;
+}
+
+.email {
+    height: 30px;
+    border: none;
+    width: 100%;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.subscribe {
+    font-family: "Roboto", sans-serif;
+    color: #3a414e;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+    font-size: 14px;
+    background: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+    left: -30px;
+}
+
+.fform {
+    display: flex;
+    align-items: center;
+}
+
+.footersub-main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+.copyright {
+    color: #797979;
+}
+
+.heart {
+    position: relative;
+    top: 2.5px;
+}
+
+.footerlinksb {
+    text-decoration: none;
+    color: #797979;
+    color: white;
+}
+
+.footerlinksb:hover {
+    text-decoration: none;
+    color: #797979;
+}
+
+.footercr {
+    margin-top: 50px;
+    width: 75%;
+    display: flex;
+    padding-left: 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.handles {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width:0px) and (max-width:1000px) {
+    .footercr {
+        margin-top: 50px;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .handles {
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .copyright {
+        color: #797979;
+        text-align: center;
+        line-height: 2;
+    }
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"imgurl": "./images/live-stream.png",
+		"heading": "Create",
+		"content": "Byte-sized short videos and Livestream shopping sessions that require no app download to engage more customers"
+	},
+	{
+		"imgurl": "./images/online-shopping.png",
+		"heading": "Go Live Shopping",
+		"content": "Interact in real-time, generate leads, and retarget audience using Text + Chat + WhatsApp + SMS + Voice to convert more customers"
+	},
+	{
+		"imgurl": "./images/sell.png",
+		"heading": "Sell",
+		"content": "Sell more with Live Shopping by providing in-video checkouts or redirect them to any external web/product page"
+	}
+]

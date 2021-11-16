@@ -1,0 +1,119 @@
+.Business-problem{
+    display: flex;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.Business-problem-reverse{
+    display: flex;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.business-problem-sub{
+    display: flex;
+    width: 23%;
+    margin-right: 70px;
+}
+.business-problem-sub-two{
+    display: flex;
+    width: 23%;
+    margin-left: 70px;
+}
+.business-problem-img{
+    height: auto;
+    max-width: 100%;
+    align-self: center;
+}
+.business-problem-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.business-heading-sub{
+    color: #051145;
+    font-size: 2.133 rem;
+}
+.business-sub-img-main{
+    display: flex;
+    justify-content: space-around;
+}
+.business-problem-content-one{
+    font-size: 20px;
+}
+.business-problem-content-two{
+    font-size: 20px;
+}
+@media screen and (min-width:0px) and (max-width: 1000px) {
+    .Business-problem{
+        display: flex;
+        margin-left: 100px;
+        margin-right:100px;
+        margin-top: 90px;
+        margin-bottom: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .business-problem-sub{
+        display: flex;
+        width: 50%;
+        margin-right: 0px;
+    }
+    .business-problem-sub-two{
+        display: flex;
+        width: 50%;
+        margin-left: 0px;
+    }
+    .business-problem-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        margin-top: 30px;
+    }
+    .Business-problem-reverse{
+        display: flex;
+        margin-left: 100px;
+        margin-right:100px;
+        margin-top: 90px;
+        margin-bottom: 40px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width:0px) and (max-width:650px) {
+  .business-sub-img-main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }   
+  .Business-problem{
+    display: flex;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .Business-problem-reverse{
+    display: flex;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+}

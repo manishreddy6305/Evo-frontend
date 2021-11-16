@@ -1,0 +1,226 @@
+[
+    {
+        "heading":"Streaming",
+        "subheading":[
+            [
+                "Unlimited Live Streaming",
+                "./images/featurestick.png",
+                "./images/featurestick.png",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+            "Pre-Recorded Streaming",
+            "./images/featurestick.png",
+            "./images/featurestick.png",
+            "./images/featurestick.png",
+            "./images/featurestick.png"
+            ],
+            [
+                "Real-Time Streaming",
+                "-",
+                "-",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+                "Pre-Recorded Multicasting",
+                "-",
+                "./images/featurestick.png",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+                "Real-Time Multicasting",
+                "-",
+                "-",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+                "Queued Stream at a Time",
+                "1",
+                "3",
+                "15",
+                "30"
+            ],
+            [
+                "Playlist Streaming",
+                "-",
+                "-",
+                "-",
+                "./images/featurestick.png"
+            ],
+            [
+                "Recorded Stream Time Limit",
+                "5 min",
+                "15 min",
+                "1 hr",
+                "8 hrs"
+            ],
+            [
+                "OneStream Branding",
+                "./images/featurestick.png",
+                "-",
+                "-",
+                "-"
+            ]
+        ]
+    },
+    {
+        "heading":"SOCIAL ACCOUNTS",
+        "subheading":[
+            [
+                "Number of Social Accounts",
+                "1",
+                "3",
+                "25",
+                "50"
+            ]
+        ]
+    },
+    {
+        "heading":"VIDEO SIZE, RECORDING, CAPTURING",
+        "subheading":[
+            [
+                "Max Video File Size",
+                "5 GB",
+                "5 GB ",
+                "Unlimited file size via cloud",
+                "Unlimited file size via cloud"
+            ],
+            [
+                "Recorded Video Broadcasting",
+                "./images/featurestick.png",
+                "./images/featurestick.png",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+                "Time Limit for Camera Recording",
+                "5 min",
+                "15 min",
+                "1 hr",
+                "8 hrs"
+            ],
+            [
+                "Time Limit for Screen Capturing",
+                "5 min",
+                "15 min",
+                "1 hr",
+                "8 hrs"
+            ],
+            [
+                "360° Videos Supported",
+                "-",
+                "./images/featurestick.png",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+                "Looping",
+                "-",
+                "./images/featurestick.png",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ]
+        ]
+    },
+    {
+        "heading":"CLOUD STORAGE",
+        "subheading":[
+            [
+                "Storage",
+                "-",
+                "5 GB",
+                "20 GB",
+                "50 GB"
+            ]
+        ]
+    },
+    {
+        "heading":"SUPPORT",
+        "subheading":[
+            [
+                "Email Support",
+                "-",
+                "Regular",
+                "Priority",
+                "Live"
+            ]
+        ]
+    },
+    {
+        "heading":"TEAMS",
+        "subheading":[
+            [
+                "Team Management",
+                "-",
+                "-",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+                "Team Storage",
+                "-",
+                "-",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+                "Team Members",
+                "-",
+                "-",
+                "2",
+                "4"
+            ]
+        ]
+    },
+    {
+        "heading":"ADVANCED FEATURES",
+        "subheading":[
+           [
+               "Captions/Subtitles",
+               "-",
+               "./images/featurestick.png",
+               "./images/featurestick.png",
+               "./images/featurestick.png"
+           ],
+            [
+                "Custom Logo/Overlay",
+                "-",
+                "-",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+                "Analytics & Insights",
+                "-",
+                "-",
+                "./images/featurestick.png",
+                "./images/featurestick.png"
+            ],
+            [
+                "Embed Stream",
+                "-",
+                "-",
+                "-",
+                "./images/featurestick.png"
+            ],
+            [
+                "Facebook Live Crossposting",
+                "-",
+                "-",
+                "-",
+                "./images/featurestick.png"
+            ],
+            [
+                "One-on-One Training Dedicated Customer Success Manager",
+                "-",
+                "-",
+                "-",
+                "./images/featurestick.png"
+            ]
+        ]
+    }
+]

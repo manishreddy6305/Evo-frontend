@@ -1,0 +1,49 @@
+.Pricingsub-main{
+    padding-right:40.5px;
+    padding-left:40.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.points-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.points-list-sub{
+    font-size: 16px;
+    margin-bottom: 20px !important;
+    color: #4c6280;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+}
+.points-list-sub2{
+    font-size: 16px;
+    margin-bottom: 20px !important;
+    color: #4c6280;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    height: 49.667px;
+}
+.questionmark{
+    color: #ccd7dc;
+    font-size: 19px;
+    padding-left: 0.6em;
+    position: relative;
+    top: 5px;
+}
+.questionmark2{
+    color: #ccd7dc;
+    font-size: 19px;
+    padding-left: 0.6em;
+    position: relative;
+    bottom: 12px;
+}
+.price-logos{
+    height: 47px;
+}

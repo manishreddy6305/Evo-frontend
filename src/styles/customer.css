@@ -1,0 +1,186 @@
+.customer-welcomepart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.goswirl.live/wp-content/uploads/2021/05/top-banner-background.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-bottom: 100px;
+    padding-bottom: 250px;
+    padding-top: 150px;
+}
+
+.customer-welcomepart-content {
+    width: 70%;
+}
+
+.customer-welcomepart-content-sub {
+    color: #000000;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1.1;
+    word-wrap: break-word;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+@media screen and (min-width:600px) and (max-width:1000px) {
+    .customer-welcomepart-content-sub {
+        color: #000000;
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 1.15;
+        word-wrap: break-word;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .customer-welcomepart {
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:599px) {
+    .customer-welcomepart-content-sub {
+        color: #000000;
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 1.15;
+        word-wrap: break-word;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .customer-welcomepart {
+        margin-bottom: 100px;
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+    .customer-welcomepart-content {
+        width: 75%;
+    }
+}
+
+.tagline-cus {
+    color: #000000;
+    font-size: 90px;
+    font-weight: 900;
+    width: 50%;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.customer-tagline {
+    display: flex;
+    justify-content: center;
+}
+
+.customer-requestdemo {
+    display: flex;
+    justify-content: center;
+}
+
+.customer-requestbutton {
+    font-size: 22px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 45px 20px 45px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: .5px;
+    width: auto;
+    border-color: #F37381;
+    background-color: #F37381;
+    color: #fff;
+    border: none;
+    margin-bottom: 150px;
+}
+@media screen and (min-width:800px) and (max-width:1326px) {
+    .tagline-cus {
+        color: #000000;
+        font-size: 80px;
+        font-weight: 900;
+        width: 80%;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+@media screen and (min-width:600px) and (max-width:799px) {
+    .tagline-cus {
+        color: #000000;
+        font-size: 70px;
+        font-weight: 900;
+        width: 90%;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+@media screen and (min-width:450px) and (max-width:600px) {
+    .tagline-cus {
+        color: #000000;
+        font-size: 50px;
+        font-weight: 900;
+        width: 90%;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+@media screen and (min-width:0px) and (max-width:449px) {
+    .tagline-cus {
+        color: #000000;
+        font-size: 45px;
+        font-weight: 900;
+        width: 90%;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+.customer-slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.customer-slider-sub{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.customer-slider-img{
+    width: 45%;
+}
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .customer-slider{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-bottom: 70px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:899px) {
+    .customer-slider{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:599px) {
+    .customer-slider{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .customer-slider-sub{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer-slider-img{
+        width: 80%;
+        margin-top: 20px;
+    }
+}

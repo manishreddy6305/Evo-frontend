@@ -1,0 +1,38 @@
+.footersub-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.footerlink {
+    color: #797979;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}
+.footerlink:hover{
+    color: white;
+}
+
+.fsh {
+    font-family: "Rajdhani", sans-serif;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}

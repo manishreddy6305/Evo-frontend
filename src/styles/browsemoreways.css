@@ -1,0 +1,40 @@
+.Browsemoreways-card{
+    display: flex;
+    width: 45%;
+    background-color: #E8E8E8;
+    padding: 25px 0px 25px 0px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.Browsemoreways-card-content-main{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    line-height: 26px;
+    color: #051145;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    justify-content: space-around;
+}
+.Browsemoreways-img{
+    display: inline;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    align-self: center;
+}
+.Browsemoreways-card-img{
+    width: 35%;
+    position: relative;
+    right: 40px;
+    display: flex;
+}
+.Browsemoreways-card-button{
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid #323232;
+    color: #323232;
+    padding: 7px 30px 7px 30px ;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+}

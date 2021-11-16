@@ -1,0 +1,14 @@
+[
+  {
+    "heading": "Quick Links",
+    "links": ["Customers", "Evo Start-ups", "Newsroom", "Pricing"]
+  },
+  {
+    "heading": "Products",
+    "links": ["One-to-many", "One-to-one"]
+  },
+  {
+    "heading": "Policy",
+    "links": ["Terms and Conditions"]
+  }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "imgurl":"./images/exclamation-mark.png",
+        "heading":"LOW ATTENTION SPAN"
+    },
+    {
+        "imgurl":"./images/development.png",
+        "heading":"LACK OF TIME"
+    },
+    {
+        "imgurl":"./images/thumb-down.png",
+        "heading":"INSTANT GRATIFICATION"
+    },
+    {
+        "imgurl":"./images/thumb-up.png",
+        "heading":"BUILD CUSTOMER CONFIDENCE IN YOUR BRAND"
+    },
+    {
+        "imgurl":"./images/youtube.png",
+        "heading":"BYTE SIZED SHORT VIDEOS"
+    },
+    {
+        "imgurl":"./images/live-stream-feature.png",
+        "heading":"LIVE STREAM SHOPPING SESSION"
+    }
+]

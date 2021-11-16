@@ -1,0 +1,30 @@
+[
+    {
+        "imgurl": "./images/customercard1.png",
+        "logo": "./images/clogo1.png",
+        "content": "Zariin triples average order value and increases customer engagement by 117% with Swirl Live Video Shopping.",
+        "buttondata": "Read the case study",
+        "rev":"false"
+    },
+    {
+        "imgurl": "./images/customercard2.png",
+        "logo": "./images/clogo2.jpg",
+        "content": "P N Rao generated 22% growth in instore footfalls and 37% jump in sales during lockdown by partnering with Swirl to offer virtual shopping to its luxury customers.",
+        "buttondata": "Learn More",
+        "rev":"true"
+    },
+    {
+        "imgurl": "./images/customercard3.png",
+        "logo": "./images/clogo3.png",
+        "content": "Greenberry Organics boosts customer engagement by 70% and executed a successful launch of its new collection by partnering with Swirl.",
+        "buttondata": "Read the case study",
+        "rev":"false"
+    },
+    {
+        "imgurl": "./images/customercard4.png",
+        "logo": "./images/clogo4.jpg",
+        "content": "BeChef’s Add-to-Cart rates soared by a whopping 4.3X and conversion rate by 5.5%  when they collaborated with Swirl to run a video ad campaign.",
+        "buttondata": "Learn More",
+        "rev":"true"
+    }
+]

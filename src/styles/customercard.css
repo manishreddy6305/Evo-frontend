@@ -1,0 +1,117 @@
+.Customercard-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.Customercard-sub2{
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Customercard-sub {
+    width: 70%;
+    display: flex;
+}
+.Customercard-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.Customercard-content {
+    width: 50%;
+    margin-left: 30px;
+}
+.Customercard-content2 {
+    width: 50%;
+    margin-right: 30px;
+}
+.customerbutton {
+    font-size: 20px;
+    fill: #F37381;
+    color: #F37381;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #F37381;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 50px 20px 50px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600px;
+}
+.customercontent-main{
+    font-size:28px;
+    margin-top:0
+}
+@media screen and (min-width:716px) and (max-width:1200px) {
+    .customercontent-main{
+        font-size:20px;
+        margin-top:0
+    }
+    .customerbutton {
+        font-size: 17px;
+        fill: #F37381;
+        color: #F37381;
+        background-color: #FFFFFF;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #F37381;
+        border-radius: 10px 10px 10px 10px;
+        padding: 8px 30px 8px 30px;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:715px) {
+    .Customercard-sub2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Customercard-sub {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Customercard-img {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .Customercard-content {
+        width: 80%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Customercard-content2 {
+        width: 80%;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .customercontent-main{
+        font-size:20px;
+        margin-top:0
+    }
+    .customerbutton{
+        font-size: 15px;
+        fill: #F37381;
+        color: #F37381;
+        background-color: #FFFFFF;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #F37381;
+        border-radius: 10px 10px 10px 10px;
+        padding: 8px 20px 8px 20px;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600px;
+        align-self: center;
+        width: 60%;
+        margin-top: 20px;
+    }
+}

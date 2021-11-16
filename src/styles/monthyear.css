@@ -1,0 +1,65 @@
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pricing-switcher {
+  text-align: center;
+}
+
+.fieldset {
+  display: inline-block;
+  position: relative;
+  padding: 2px;
+  border-radius: 50em;
+  border: 2px solid #F37381;
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+label {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #F37381;
+}
+
+#monthly {
+  color: white;
+}
+
+#yearly {
+  color: #F37381;
+}
+
+.switch {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 40px;
+  width: 90px;
+  background-color: #F37381;
+  border-radius: 50em;
+  -webkit-transition: -webkit-transform 0.4s linear;
+  -moz-transition: -moz-transform 0.4s linear;
+  transition: transform 0.4s linear;
+}

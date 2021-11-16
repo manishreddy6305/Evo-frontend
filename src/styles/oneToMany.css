@@ -1,0 +1,454 @@
+.oneToMany-Welcomepart {
+    display: flex;
+    justify-content: center;
+    margin: 60px 60px;
+    margin-bottom: 130px;
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url(https://www.goswirl.live/wp-content/uploads/2021/05/top-banner-background.png);
+    background-position: bottom center;
+    background-repeat: no-repeat
+}
+
+.oneToMany-Welcomepart-contentmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+.oneToMany-Welcomepart-button {
+    border: 0;
+    background-color: #F37381;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    color: white;
+    margin-top: 20px;
+}
+
+.oneToMany-banner {
+    height: 520px;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+.oneToMany-heading {
+    color: #B2B2B2;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.oneToMany-heading-sub {
+    color: #555555;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width:0px) and (max-width:1000px) {
+    .oneToMany-Welcomepart {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 60px 60px;
+        margin-bottom: 130px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .oneToMany-Welcomepart-contentmain {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:520px) {
+    .oneToMany-banner {
+        height: 380px;
+        max-width: 100%;
+        border: none;
+        box-shadow: none;
+    }
+
+    .oneToMany-heading-sub {
+        color: #555555;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .oneToMany-heading {
+        color: #B2B2B2;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+    }
+}
+
+.oneToMany-join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.oneToMany-join-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.oneClickJoin {
+    text-align: center;
+    color: #555555;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.oneClickJoin-content {
+    text-align: center;
+    font-weight: 400;
+    color: #323232;
+    line-height: 1.6;
+    margin: 0;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+@media screen and (min-width:0px) and (max-width:681px) {
+    .oneClickJoin {
+        text-align: center;
+        color: #555555;
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 30px !important;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:490px) {
+    .oneClickJoin {
+        text-align: center;
+        color: #555555;
+        font-size: 35px !important;
+        font-weight: 900;
+        margin-bottom: 30px !important;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.oneToMany-points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: transparent;
+    background-image: linear-gradient(90deg, #8642E7 0%, #6451C5 100%); */
+    background-color: #F37381;
+}
+
+.oneToMany-points-sub {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:0px) and (max-width: 1200px) {
+    .oneToMany-points-sub {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+.oneToMany-Features-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.oneToMany-Features-sub{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+.ourfeatures{
+    color: #323232;
+    font-size: 28px;
+    font-weight: 700;
+}
+.oneToMany-Feature-video{
+    width: 40%;
+    display: flex;
+}
+.feature-video{
+    width: 95%;
+    object-fit: cover;
+}
+.oneToMany-Feature-video-main{
+    display: flex;
+    width: 100%;
+}
+.oneToMany-Feature-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+@media screen and (min-width:760px) and (max-width:1000px) {
+    .oneToMany-Feature-video{
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (min-width:0px) and (max-width:759px) {
+    .oneToMany-Feature-video-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .oneToMany-Feature-video{
+        width: 100%;
+        justify-content: center;
+    }
+    .oneToMany-Feature-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .Analysis-sub{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+.Analysis-main{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://www.goswirl.live/wp-content/uploads/2021/08/analtics-background-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.Analysis-content{
+    text-align: center;
+    color: #E9E9E9;
+    font-family: "Poppins", Sans-serif;
+}
+.Analysis-img{
+    max-width: 100%;
+    height: auto;
+}
+.Analysis-sub{
+    display: flex;
+    align-items: center;
+}
+@media screen and (min-width:0px) and (max-width:1200px) {
+    .Analysis-main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Analysis-sub{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.Customerstory-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.Customerstory-sub{
+    display: flex;
+    width: 75%;
+}
+.Customerstory-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 30px;
+}
+.Customerstory-content-sub{
+    color: #323232;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Poppins',sans-serif;
+}
+.Customerstory-img{
+    width: 50%;
+    display: flex;
+}
+.Customerstory-content-sub{
+    color: #323232;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
+}
+.Customerstory-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.Customerstory-icons-sub{
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.Customerstory-button{
+    font-size: 18px;
+    fill: #323232;
+    color: #323232;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #323232;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 50px 20px 50px;
+    width: fit-content;
+    margin-top: 30px;
+}
+.Zara{
+    max-width:100% ;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+}
+@media screen and (min-width:0px) and (max-width:759px) {
+    .Customerstory-sub{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }    
+    .Customerstory-content{
+        width: 100%;
+    }          
+    .Customerstory-img{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.Requestdemo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.goswirl.live/wp-content/uploads/2021/08/request-demo-background-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Requestdemo-sub{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Requestdemo-heading{
+    color: #E9E9E9;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+.Requestdemo-button{
+    font-size: 18px;
+    background-color: #F37381;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+@media screen and (min-width:0px) and (max-width: 749px) {
+    .Requestdemo-button{
+        font-size: 18px;
+        background-color: #8364D1;
+        border-radius: 10px;
+        padding: 15px 30px 15px 30px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .Requestdemo-sub{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+.Browsemoreways-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Browsemoreways-heading{
+    color: #323232;
+    font-size:30px;
+    font-weight: 700;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Browsemoreways-sub{
+    display: flex;
+    flex-direction: column;
+    width:65%;
+    flex-wrap: wrap;
+}
+.Browsemoreways-card-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.dot{
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+}

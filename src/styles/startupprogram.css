@@ -1,0 +1,134 @@
+.Welcomepart{
+    display: flex;
+    justify-content: center;
+    margin: 60px 60px;
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url(https://www.goswirl.live/wp-content/uploads/2021/05/top-banner-background.png);
+    background-position: bottom center;
+    background-repeat: no-repeat
+}
+.Welcomepart-contentmain{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 20px;
+}
+.Welcomepart-content{
+    display: flex;
+    justify-content: flex-start;
+}
+.Welcomepart-heading{
+    color: #5B5B5B;
+    font-family: "GreycliffCF", Sans-serif;
+    font-weight: 400;
+    line-height: 1;
+}
+.fw-100{
+    font-weight: 100 !important;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-28{
+    font-size: 28px;
+    margin: 0;
+    margin-top: 22px;
+}
+.fs-25{
+    font-size: 25px;
+    margin: 0;
+}
+.Welcomepart-img{
+    width: 30%;
+}
+.Welcomepart-button{
+    border: 0;
+    background-color: #F37381;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    color: white;
+}
+.startup-banner{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+}
+@media screen and (min-width:0px) and (max-width:1000px) {
+    .Welcomepart{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 60px 60px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Welcomepart-contentmain{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+.Features-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Features{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.Features-content{
+    font-size: 18px;
+}
+.Features-icons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    width: 80%;
+}
+@media screen and (min-width:0px) and (max-width:830px) {
+    .Features-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        width: 80%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:1000px) {
+    .Welcomepart-img{
+        width: 80%;
+    }
+    .Welcomepart-contentmain{
+        margin-top: 80px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:650px) {
+    .Welcomepart{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Welcomepart-contentmain{
+        width: 90%;
+        margin-left: 40px;
+    }
+    .fs-30{
+        line-height: 1.6;
+    }
+}

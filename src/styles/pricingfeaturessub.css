@@ -1,0 +1,20 @@
+.Pricingfeaturessub-main{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.pricingfeature-streaming{
+    text-align: left;
+    border-bottom: 3px solid #000;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #4c627f;
+    margin-bottom: 0;
+}

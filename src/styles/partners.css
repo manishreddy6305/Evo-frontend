@@ -1,0 +1,27 @@
+.Partners-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Partners-sub {
+    border-radius: 20px;
+    background-color: #EFEFEF;
+    width: 75%;
+    min-height: 250px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.Partners-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.Partners-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
